@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="contactStyles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Chakra+Petch:ital,wght@0,600;1,600&family=IBM+Plex+Sans:ital,wght@1,600&family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="top">
+    <h1 id="welcome">Welcome To My Webpage</h1>
+    <h2 id="name">This is the Contact Page</h2>
+    <ul id="navbar">
+      <li class="links"><a href="file:///Users/isaiahcortez/Documents/Final%20Assignment/Personal_Site/index.html">Home</a></li>
+      <li class="links"><a href="file:///Users/isaiahcortez/Documents/Final%20Assignment/Personal_Site/resume.html">Resume</a></li>
+      <li class="links"><a href="file:///Users/isaiahcortez/Documents/Final%20Assignment/Personal_Site/contactIndex.html">Contact</a></li>
+      <li class="links"><a href="https://www.google.com/">Google</a></li>
+    </ul>
+  </div>
+
+  <div id="contactBoard">
+    <p class="title">Here is a list of Contacts: </p>
+    <section id="gmailDisplay">
+      <p class="displayTitle">Gmail: </p>
+      <p class="contact1">Example123@gmail.com</p>
+      <p class="contact2">BackupExample@gmail.com</p>
+    </section>
+    <section id="phoneDisplay">
+      <p class="displayTitle">Phone: </p>
+      <p class="contact1">123-4567-8900</p>
+      <p class="contact2">987-654-3210</p>
+    </section>
+    <section id="twitterDisplay">
+      <p class="displayTitle">Twitter: </p>
+      <p class="contact1">@Twitter</p>
+      <p class="contact2">@Instagram</p>
+    </section>
+    <section id="instaDisplay">
+      <p class="displayTitle">Instagram: </p>
+      <p class="contact1">@Instagram</p>
+      <p class="contact2">@Twitter</p>
+    </section>
+    <div id="button">
+      <input onclick="displayFunction()" type="submit" value="Click to see backup contacts" class="myButton"></input>
+    </div>
+  </div>
+  <div id="guestFeedback">
+    <section>
+      <p class="title">In this area you can give feed back: </p>
+      <br />
+      <textarea id="textArea" rows="8" cols="45"></textarea>
+      <br />
+      <br />
+      <input class="myButton" type="submit" value="Submit" onclick="inputFunction()">
+      <section id="script">
+        <p>Sorry but we could not accept your input: </p>
+        <p id="userInput"></p>
+        <p> This is a scripted function.</p>
+      </section>
+      <section id="lowFB">
+        <p>Please enter a comment in the text area.</p>
+      </section>
+    </section>
+  </div>
+
+
+
+  <div id="bottomText">
+    <p>Etiam condimentum dolor leo, a dapibus est semper vel. Donec eu nulla in lorem maximus dictum. Nunc placerat nibh leo, consectetur maximus mi venenatis et.</p>
+  </div>
+
+
+
+  <script src="contactScript.js" charset="utf-8"></script>
+</body>
+
+</html>

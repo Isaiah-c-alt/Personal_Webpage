@@ -1,0 +1,222 @@
+body
+{
+  background: #eeeeee;
+}
+li a
+{
+  color: #f73859;
+  display: block;
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+
+/* ID */
+
+#top
+{
+  margin-left: 10%;
+  text-align: center;
+  width: 80%;
+  font-family: 'Chakra Petch', sans-serif;
+}
+#welcome
+{
+  margin-bottom: 0;
+  background: #f73859;
+}
+#name
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #404b69;
+}
+#navbar
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#introduction
+{
+  font-size: 100%;
+  margin-bottom: 0;
+}
+#leftSidebar
+{
+  background: #f73859;
+  float: left;
+  margin-left: 10%;
+  width: 17.5%;
+  padding: 1%;
+  height: 147.5vh;
+  overflow: auto;
+}
+#centerText
+{
+  background: #3a4750;
+  float: left;
+  width: 39%;
+  padding: 1%;
+  height: 147.5vh;
+  overflow: auto;
+}
+#wideImage
+{
+  padding: 1%;
+  border-top: solid black 3px;
+  width: 37.5vw;
+  height: 35vh;
+  margin: 0;
+}
+#rightSidebar
+{
+  background: #f73859;
+  float: right;
+  margin-right: 10%;
+  width: 17.5%;
+  padding: 1%;
+  height: 147.5vh;
+  overflow: auto;
+}
+#bottomBar
+{
+  display: block;
+  background: #404b69;
+  width: 78%;
+  height: 5%;
+  margin-left: 10%;
+  font-size: 80%;
+  overflow: auto;
+  padding: 1%;
+  margin-bottom: 0;
+}
+#info
+{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 0;
+}
+#firstParagraph
+{
+  background: #f73859;
+  margin: 0;
+  padding: 1%;
+  border-left: solid 5px #31384a;
+  border-right: solid 5px #31384a;
+  border-top: solid 5px #31384a;
+}
+#secondParagraph
+{
+  /* background: #f73859; */
+  background: #3a4750;
+  margin: 0;
+  padding: 1%;
+  border-left: solid 5px #31384a;
+  border-right: solid 5px #31384a;
+}
+
+#thirdParagraph
+{
+  background: #f73859;
+  margin: 0;
+  padding: 1%;
+  border-left: solid 5px #31384a;
+  border-right: solid 5px #31384a;
+}
+#contactBoard
+{
+  /* background: #31384a; */
+  background: #dbedf3;
+  border-left: solid 5px #404b69;
+  border-right: solid 5px #404b69;
+  border-bottom: solid 5px #404b69;
+  width: 74.3%;
+  margin-left: 10%;
+  padding: 2.5%;
+}
+#gmailDisplay
+{
+  margin: 2.5%;
+  padding: 1.5%;
+  border-top: 5px solid #f73859;
+  border-bottom: 5px solid #f73859;
+}
+#gmail
+{
+  font-family: 'Chakra Petch', sans-serif;
+}
+#phoneDisplay
+{
+  margin: 2.5%;
+  padding: 1.5%;
+  border-top: 5px solid #f73859;
+  border-bottom: 5px solid #f73859;
+}
+#phone
+{
+  font-family: 'Chakra Petch', sans-serif;
+}
+#twitterDisplay
+{
+  margin: 2.5%;
+  padding: 1.5%;
+  border-top: 5px solid #f73859;
+  border-bottom: 5px solid #f73859;
+}
+#twitter
+{
+  font-family: 'Chakra Petch', sans-serif;
+}
+#instaDisplay
+{
+  margin: 2.5%;
+  padding: 1.5%;
+  border-top: 5px solid #f73859;
+  border-bottom: 5px solid #f73859;
+}
+#insta
+{
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+
+#bottomText
+{
+  border-top: #f73859 solid 2px;
+  font-size: 1.5%;
+  color: grey;
+  width: 79%;
+  padding: 0.5%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+/* class */
+.title
+{
+  font-family: 'Chakra Petch', sans-serif;
+  border-bottom: 5px solid black;
+}
+.links
+{
+  padding: 0.5% 0% 0.5% 0;
+  width:25%;
+  background: #31384a;
+  float: left;
+}
+.boldedphrases
+{
+  font-weight: bold;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+.displayTitle
+{
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+}

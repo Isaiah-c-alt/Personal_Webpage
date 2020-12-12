@@ -1,0 +1,181 @@
+body
+{
+  background: #eeeeee;
+}
+li a
+{
+  color: #f73859;
+  display: block;
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+
+#top
+{
+  margin-left: 10%;
+  text-align: center;
+  width: 80%;
+  font-family: 'Chakra Petch', sans-serif;
+}
+#welcome
+{
+  margin-bottom: 0;
+  background: #f73859;
+}
+#name
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #404b69;
+}
+#navbar
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#contactBoard
+{
+  background: #f73859;
+  border-bottom: solid 1% #404b69;
+  width: 75%;
+  margin-left: 10%;
+  padding: 2.5%;
+}
+#gmailDisplay
+{
+  margin: 2.5%;
+  padding: 1.5%;
+  border-top: 5px solid #404b69;
+  border-bottom: 5px solid #404b69;
+}
+#phoneDisplay
+{
+  margin: 2.5%;
+  padding: 1.5%;
+  border-top: 5px solid #404b69;
+  border-bottom: 5px solid #404b69;
+}
+#twitterDisplay
+{
+  margin: 2.5%;
+  padding: 1.5%;
+  border-top: 5px solid #404b69;
+  border-bottom: 5px solid #404b69;
+}
+#instaDisplay
+{
+  margin: 2.5%;
+  padding: 1.5%;
+  border-top: 5px solid #404b69;
+  border-bottom: 5px solid #404b69;
+}
+#button
+{
+  text-align: center;
+}
+#guestFeedback
+{
+  margin-left: 10%;
+  background: #404b69;
+  width: 78%;
+  padding: 1%;
+}
+#script
+{
+  display: none;
+}
+#lowFB
+{
+  display: none;
+}
+
+
+#bottomText
+{
+  border-top: #f73859 solid 2px;
+  font-size: 1.5%;
+  color: grey;
+  width: 79%;
+  padding: 0.5%;
+  margin-top: 7.5%;
+  margin-left: 10%;
+  display: block;
+  position: relative;
+  bottom: 5%;
+}
+
+.links
+{
+  padding: 0.5% 0% 0.5% 0;
+  width:25%;
+  background: #31384a;
+  float: left;
+}
+.title
+{
+  font-family: 'Chakra Petch', sans-serif;
+  border-bottom: 5px solid black;
+  font-size: 125%;
+}
+.displayTitle
+{
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+}
+.contact1
+{
+  font-family: 'Chakra Petch', sans-serif;
+}
+.contact2
+{
+  font-family: 'Chakra Petch', sans-serif;
+  display: none;
+}
+
+
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+ }
